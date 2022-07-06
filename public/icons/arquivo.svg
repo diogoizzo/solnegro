@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 141 141" style="enable-background:new 0 0 141 141;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED1C24;}
+	.st1{fill:#ED1C24;fill-opacity:0;}
+	.st2{fill:#ED1C24;stroke:#FCFCFC;stroke-width:7.417;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#FCFCFC;stroke-width:7.417;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="Grupo_33" transform="translate(-652 -2394)">
+	<text transform="matrix(1 0 0 1 641 2620)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:38px;">Diploma </text>
+	<text transform="matrix(1 0 0 1 660 2674)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:38px;">digital</text>
+	<g id="Circle_Button" transform="translate(665.291 2393.509)">
+		<path id="Area" class="st0" d="M57.2,0.5L57.2,0.5c38.9,0,70.5,31.6,70.5,70.5l0,0c0,38.9-31.6,70.5-70.5,70.5l0,0
+			c-38.9,0-70.5-31.6-70.5-70.5l0,0C-13.3,32.1,18.3,0.5,57.2,0.5z"/>
+		<g id="Icon" transform="translate(40.983 40.984)">
+			<rect id="Area-2" x="-13.3" y="-0.5" class="st1" width="60" height="59"/>
+			<g id="Icon-2" transform="translate(9.918 5.419)">
+				<path id="Path" class="st2" d="M11.4,0H-8.1C-10.8,0-13,2.2-13,4.9V44c0,2.7,2.2,4.9,4.9,4.9h29.3c2.7,0,4.9-2.2,4.9-4.9V14.7
+					L11.4,0z"/>
+				<path id="Path-2" class="st2" d="M11.4,0v14.7h14.7"/>
+				<line id="Line" class="st3" x1="16.3" y1="26.9" x2="-3.2" y2="26.9"/>
+				<line id="Line-2" class="st3" x1="16.3" y1="36.6" x2="-3.2" y2="36.6"/>
+				<path id="Path-3" class="st2" d="M1.7,17.1h-4.9"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

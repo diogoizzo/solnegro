@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans:wght@600&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .frame{
+        @apply max-w-screen-2xl px-[6%] mx-auto}
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white !important;
+}
+
+.swiper-pagination-bullet{
+    background-color: transparent !important;
+    margin-right: 10px !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 0 3px rgba(255,255,255,1) !important;
+}
+
+
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+
+}
+.text-shadow{
+    text-shadow: 0 2px 5px #00000073;
+}
+.text-shadow-red {
+    text-shadow: 0 3px 5px #ED1C243B;
+}
+.text-shadow-red-lg {
+    text-shadow: 0 10px 10px #ED1C243B;
+}
+.text-shadow-red-claro{
+    text-shadow: 0 2px 4px #FFFFFF8A;
+}
+.list-inside{
+    list-style-position: inside
+}
+.preco-riscado{
+    text-decoration-line: line-through;
+    text-decoration-color:#ED1C24;
+    text-decoration-thickness: 3px;
+}
+
+
