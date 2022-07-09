@@ -6,6 +6,7 @@ import Trabalho from "../components/Trabalho";
 import Reviews from "../components/Reviews";
 import Preco from "../components/Preco";
 import Perguntas from "../components/Perguntas";
+import customLoader from "../components/customLoader";
 
 export default function Home() {
     return (
@@ -91,6 +92,7 @@ export default function Home() {
                                     className={"w-20 mx-auto md:w-24 2xl:w-28 "}
                                 >
                                     <Image
+                                        loader={customLoader}
                                         src={"/icons/olho.svg"}
                                         alt={"ícone de arquivos do curso"}
                                         width={141}
@@ -113,6 +115,7 @@ export default function Home() {
                                     className={"w-20 mx-auto md:w-24 2xl:w-28 "}
                                 >
                                     <Image
+                                        loader={customLoader}
                                         src={"/icons/play.svg"}
                                         alt={"ícone de arquivos do curso"}
                                         width={141}
@@ -135,6 +138,7 @@ export default function Home() {
                                     className={"w-20 mx-auto md:w-24 2xl:w-28 "}
                                 >
                                     <Image
+                                        loader={customLoader}
                                         src={"/icons/foto.svg"}
                                         alt={"ícone de arquivos do curso"}
                                         width={141}
@@ -157,6 +161,7 @@ export default function Home() {
                                     className={"w-20 mx-auto md:w-24 2xl:w-28 "}
                                 >
                                     <Image
+                                        loader={customLoader}
                                         src={"/icons/play.svg"}
                                         alt={"ícone de arquivos do curso"}
                                         width={141}
@@ -179,6 +184,7 @@ export default function Home() {
                                     className={"w-20 mx-auto md:w-24 2xl:w-28 "}
                                 >
                                     <Image
+                                        loader={customLoader}
                                         src={"/icons/arquivo.svg"}
                                         alt={"ícone de arquivos do curso"}
                                         width={141}
@@ -301,6 +307,7 @@ export default function Home() {
                                 }
                             >
                                 <Image
+                                    loader={customLoader}
                                     src={"/images/mandala.png"}
                                     alt={"mandala do sol negro"}
                                     width={459}
@@ -401,6 +408,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/mulheres.png"}
                                 alt={"imagem de duas mulheres misteriosas"}
                                 layout={"fill"}
@@ -472,6 +480,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/hall.jpg"}
                                 alt={"imagem de um hall de entrada"}
                                 layout={"fill"}
@@ -533,6 +542,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/igreja.jpg"}
                                 alt={"imagem de vários bispos em uma igreja"}
                                 layout={"fill"}
@@ -621,6 +631,7 @@ export default function Home() {
                         >
                             {/*todo falar com o gago sobre a imagem dessa parte, já que não esta no mesmo formato das demais e utiliza um fundo vermelho*/}
                             <Image
+                                loader={customLoader}
                                 src={"/images/mulheres.png"}
                                 alt={"imagem de duas mulheres misteriosas"}
                                 layout={"fill"}
@@ -695,6 +706,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/monumento.jpg"}
                                 alt={"imagem de um monumento"}
                                 layout={"fill"}
@@ -769,6 +781,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/discoParcial.jpg"}
                                 alt={"imagem de um disco voador pela metade"}
                                 layout={"fill"}
@@ -818,6 +831,7 @@ export default function Home() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/autor.jpg"}
                                 alt={"imagem de duas mulheres misteriosas"}
                                 height={763}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import customLoader from "./customLoader";
 
 export default function Header() {
     return (
@@ -16,6 +17,7 @@ export default function Header() {
                             }
                         >
                             <Image
+                                loader={customLoader}
                                 src={"/images/solnegro.svg"}
                                 alt={"logo do Sol Negro"}
                                 layout={"fill"}
@@ -35,6 +37,7 @@ export default function Header() {
                 <div className={"w-1/4 h-full absolute right-0"}>
                     <span className={"md:hidden"}>
                         <Image
+                            loader={customLoader}
                             src={"/images/mandala.png"}
                             alt={"madala do Sol Negro"}
                             layout={"fill"}
@@ -44,6 +47,7 @@ export default function Header() {
                     </span>
                     <span className={"hidden md:block 2xl:hidden"}>
                         <Image
+                            loader={customLoader}
                             src={"/images/mandala.png"}
                             alt={"madala do Sol Negro"}
                             layout={"fill"}
@@ -53,6 +57,7 @@ export default function Header() {
                     </span>
                     <span className={"hidden 2xl:block"}>
                         <Image
+                            loader={customLoader}
                             src={"/images/mandala.png"}
                             alt={"madala do Sol Negro"}
                             layout={"fill"}

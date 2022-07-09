@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import customLoader from "./customLoader";
 export default function Inscricao() {
     return (
         <div className={"flex flex-col w-full mt-10 "}>
@@ -21,6 +21,7 @@ export default function Inscricao() {
                 <div className={"flex h-fit"}>
                     <span className={"min-w-fit mr-2 md:hidden"}>
                         <Image
+                            loader={customLoader}
                             src={"/icons/estrela.svg"}
                             alt={"ícone de estrela"}
                             width={20}
@@ -30,6 +31,7 @@ export default function Inscricao() {
                     </span>
                     <span className={"hidden md:block mr-2 xl:hidden"}>
                         <Image
+                            loader={customLoader}
                             src={"/icons/estrela.svg"}
                             alt={"ícone de estrela"}
                             width={40}
@@ -39,6 +41,7 @@ export default function Inscricao() {
                     </span>
                     <span className={"hidden xl:block mr-2"}>
                         <Image
+                            loader={customLoader}
                             src={"/icons/estrela.svg"}
                             alt={"ícone de estrela"}
                             width={80}
@@ -62,6 +65,7 @@ export default function Inscricao() {
                     >
                         <span className={"mr-2 md:hidden"}>
                             <Image
+                                loader={customLoader}
                                 src={"/icons/cadeado.svg"}
                                 alt={"ícone de arquivos do curso"}
                                 width={20}
@@ -71,6 +75,7 @@ export default function Inscricao() {
                         </span>
                         <span className={"hidden md:block mr-2"}>
                             <Image
+                                loader={customLoader}
                                 src={"/icons/cadeado.svg"}
                                 alt={"ícone de arquivos do curso"}
                                 width={35}
@@ -82,6 +87,7 @@ export default function Inscricao() {
                     </p>
                     <span>
                         <Image
+                            loader={customLoader}
                             src={"/images/bandeiras-cartoes.png"}
                             alt={
                                 "bandeiras dos cartões que servem com pagamento"

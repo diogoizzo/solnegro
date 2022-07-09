@@ -3,6 +3,7 @@ import { A11y, Autoplay, Navigation } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css";
 import Image from "next/image";
+import customLoader from "./customLoader";
 
 export default function Slider({ className, slideId, slides, orientation }) {
     return (
@@ -26,6 +27,7 @@ export default function Slider({ className, slideId, slides, orientation }) {
                         className={"w-full h-full"}
                     >
                         <Image
+                            loader={customLoader}
                             src={`/images/${
                                 orientation === "vertical"
                                     ? "slidervertical"
