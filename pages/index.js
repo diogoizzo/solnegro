@@ -29,7 +29,7 @@ export default function Home() {
                             <iframe
                                 width="330"
                                 height="200"
-                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&origin=https://solnegro.vercel.app"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&enablejsapi=1&origin=https://solnegro.vercel.app"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
                                 className={"md:hidden"}
@@ -37,7 +37,7 @@ export default function Home() {
                             <iframe
                                 width="560"
                                 height="390"
-                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&enablejsapi=1&origin=https://solnegro.vercel.app"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
                                 className={"hidden md:block mx-auto"}

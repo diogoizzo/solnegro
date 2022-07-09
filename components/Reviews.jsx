@@ -4,7 +4,7 @@ export default function Reviews({ src, nome, funcao }) {
             <iframe
                 width="290"
                 height="290"
-                src={`${src}?origin=https://solnegro.vercel.app`}
+                src={`${src}?enablejsapi=1&origin=https://solnegro.vercel.app`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen="allowFullScreen"
             ></iframe>
