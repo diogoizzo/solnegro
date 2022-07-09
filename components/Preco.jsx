@@ -16,12 +16,12 @@ export default function Preco() {
                     </span>
                     <br />
                     <span className={"text-4xl text-brand-red md:text-6xl"}>
-                        R$ 597,00
+                        R$ 697,00
                     </span>{" "}
                     <span className={"font-normal md:text-2xl"}>à vista</span>
                     <br />
                     <span className={"text-2xl md:text-3xl"}>
-                        12 x de 99,00 no cartão
+                        12 x de 69,70 no cartão
                     </span>
                 </p>
                 <Inscricao />

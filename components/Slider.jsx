@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Slider({ className, slideId, slides, orientation }) {
     return (
-        <div className={`${className} w-full h-full  xl:mt-0 `}>
+        <div className={`w-full h-full  xl:mt-0 ${className}  `}>
             <Swiper
                 as={"div"}
                 className={`${slideId} w-full h-full`}

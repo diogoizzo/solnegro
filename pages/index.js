@@ -17,7 +17,7 @@ export default function Home() {
                 >
                     <h2
                         className={
-                            "mb-6 font-montserrat text-2xl text-brand-red tracking-wide text-center text-shadow md:text-4xl xl:text-6xl"
+                            "mb-6 font-montserrat text-2xl text-brand-red tracking-wide text-center text-shadow md:text-4xl xl:text-6xl xl:leading-[80px]"
                         }
                     >
                         O CURSO QUE IRÁ DEVASTAR SUAS CRENÇAS
@@ -26,18 +26,27 @@ export default function Home() {
                     {/*todo falar com o gago sobre a alteração de título, pois ficou igual a faixa da imagem*/}
                     <div className={"w-full flex flex-col xl:flex-row"}>
                         <span className={"xl:w-1/2 xl:order-2 text-center"}>
-                            <Image
-                                src={"/images/video.png"}
-                                alt={"thumbnail do vídeo"}
-                                width={774}
-                                height={519}
-                                layout={"intrinsic"}
-                            />
+                            <iframe
+                                width="330"
+                                height="200"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen="allowFullScreen"
+                                className={"xl:hidden"}
+                            ></iframe>
+                            <iframe
+                                width="560"
+                                height="390"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen="allowFullScreen"
+                                className={"hidden xl:block"}
+                            ></iframe>
                         </span>
 
                         <div
                             className={
-                                "mt-6 text-justify font-roboto md:text-xl xl:w-1/2 xl:mt-0 xl:mr-6"
+                                "mt-6 text-justify font-roboto md:text-xl xl:w-1/2 xl:mt-0 xl:mr-12 "
                             }
                         >
                             <p>
@@ -53,7 +62,7 @@ export default function Home() {
                                 que escreveram a história ocultaram parte da
                                 verdade.
                             </p>
-                            <p className={"mt-2"}>
+                            <p>
                                 Após este curso, você jamais voltará a ser
                                 enganado por esses grupos que com suas
                                 ideologias controlam e manipulam a maior parte
@@ -199,11 +208,11 @@ export default function Home() {
                         >
                             DE ONDE VEM ESSAS TEORIAS
                         </h2>
-                        <div className="grid  grid-cols-1 pb-6 grid-rows-3 md:grid-rows-6 md:pb-12 xl:pb-5 xl:grid-cols-3 xl:grid-rows-2 ">
+                        <div className="grid  grid-cols-1 pb-6 grid-rows-3 md:grid-rows-6 md:pb-12 xl:pb-5 xl:grid-cols-3 xl:grid-rows-2 xl:gap-10 ">
                             <div className={"xl:col-span-2 relative"}>
                                 <p
                                     className={
-                                        "text-justify mb-6 font-roboto md:text-xl xl:mb-0  "
+                                        "text-justify font-roboto md:text-xl"
                                     }
                                 >
                                     Conheça os poderes ocultos que atuaram na
@@ -212,22 +221,29 @@ export default function Home() {
                                     grupos místicos e esotéricos. Crianças
                                     cristais, mensagens canalizadas, contrato
                                     extraterrestre, energia vril, são apenas
-                                    algumas dessas ideias. A presença do símbolo
-                                    Sol Negro na guerra da Ucrânia, mostrou
-                                    aquilo que o autor vem dizendo há anos.
-                                    Estamos revivendo o passado e aqueles que
-                                    escreveram a história ocultaram parte da
-                                    verdade. Após este curso, você jamais
-                                    voltará a ser enganado por esses grupos que
-                                    com suas ideologias controlam e manipulam a
-                                    maior parte das pessoas no mundo.
+                                    algumas dessas ideias.
+                                </p>
+                                <p
+                                    className={
+                                        "text-justify font-roboto md:text-xl"
+                                    }
+                                >
+                                    A presença do símbolo Sol Negro na guerra da
+                                    Ucrânia, mostrou aquilo que o autor vem
+                                    dizendo há anos. Estamos revivendo o passado
+                                    e aqueles que escreveram a história
+                                    ocultaram parte da verdade. Após este curso,
+                                    você jamais voltará a ser enganado por esses
+                                    grupos que com suas ideologias controlam e
+                                    manipulam a maior parte das pessoas no
+                                    mundo.
                                 </p>
                             </div>
 
                             <Slider
                                 orientation={"vertical"}
                                 className={
-                                    "md:row-span-3 md:mt-12 md:row-start-4 xl:row-span-2 xl:ml-8 "
+                                    "mt-6 md:row-span-3 md:-mt-52  md:row-start-4 xl:row-span-3 xl:h-full  "
                                 }
                                 slideId={2}
                                 slides={[
@@ -247,7 +263,7 @@ export default function Home() {
                             <Slider
                                 orientation={"horizontal "}
                                 className={
-                                    "mt-6 md:row-span-2 xl:h-[300px] 2xl:-mt-10 xl:col-span-2"
+                                    "mt-12 md:row-span-2 xl:h-full  xl:col-span-2 max-h-[400px] md:h-full"
                                 }
                                 slideId={1}
                                 slides={[
@@ -269,9 +285,21 @@ export default function Home() {
                     </div>
                 </section>
                 <section>
-                    <div className={"bg-black w-full py-10"}>
-                        <div className={"grid frame grid-cols-1"}>
-                            <div className={"w-36 mx-auto md:w-44 xl:w-56"}>
+                    <div
+                        className={
+                            "bg-black w-full py-10 -mt-48 md:-mt-52 xl:mt-0"
+                        }
+                    >
+                        <div
+                            className={
+                                "grid frame grid-cols-1 xl:grid-cols-3 xl:items-center"
+                            }
+                        >
+                            <div
+                                className={
+                                    "mx-auto w-36 md:w-44 xl:w-96 xl:order-2 xl:mx-0 xl:justify-self-end"
+                                }
+                            >
                                 <Image
                                     src={"/images/mandala.png"}
                                     alt={"mandala do sol negro"}
@@ -280,17 +308,23 @@ export default function Home() {
                                     layout={"intrinsic"}
                                 />
                             </div>
-                            <div className={"flex flex-col w-full mt-6"}>
+                            <div
+                                className={
+                                    "flex flex-col w-full mt-6 xl:order-1 xl:col-span-2"
+                                }
+                            >
                                 <h2
                                     className={
-                                        "font-montserrat text-2xl text-center text-brand-red text-shadow-red-claro mb-6 md:text-4xl xl:text-6xl"
+                                        "font-montserrat text-2xl text-center  text-brand-red text-shadow-red-claro mb-6 md:text-4xl xl:text-6xl xl:leading-[80px] xl:text-left"
                                     }
                                 >
-                                    COMO O SOL NEGRO É ESTRUTURADO
+                                    COMO O SOL NEGRO
+                                    <br className={"hidden xl:inline-block"} />É
+                                    ESTRUTURADO
                                 </h2>
                                 <p
                                     className={
-                                        "text-white font-roboto text-center text-lg md:text-2xl"
+                                        "text-white font-roboto text-center xl:text-left text-lg md:text-2xl"
                                     }
                                 >
                                     Serão 4 encontros ao vivo com mais de 20
@@ -300,29 +334,33 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className={"grid grid-cols-1 w-full xl:grid-cols-2"}>
+                    <div
+                        className={
+                            "grid grid-cols-1 w-full xl:grid-cols-2 relative"
+                        }
+                    >
                         <div
                             className={
-                                "w-full my-10 flex flex-col justify-center items-center px-[6%] xl:order-2"
+                                "w-full my-10 flex flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-2"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl "
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl "
                                 }
                             >
                                 ENCONTRO 01
                             </h3>
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 MISTICISMO CRESCENTE
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 05 horas com intervalos das 14
@@ -359,7 +397,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-1 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-1 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             <Image
@@ -372,26 +410,26 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "w-full flex my-10 flex-col justify-center items-center px-[6%] xl:order-3"
+                                "w-full flex my-10 flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-3"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl"
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl"
                                 }
                             >
                                 ENCONTRO 02
                             </h3>
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 UMA NOVA ORDEM MUNDIAL
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 05 horas com intervalos das 14
@@ -430,7 +468,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-4 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-4 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             <Image
@@ -443,26 +481,26 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "w-full my-10 flex flex-col justify-center items-center px-[6%] xl:order-6"
+                                "w-full my-10 flex flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-6"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl"
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl"
                                 }
                             >
                                 ENCONTRO 03 (PARTE 1)
                             </h3>
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 O QUARTO REICH NAS AMÉRICAS
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 04 horas com intervalos das 14
@@ -491,7 +529,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-5 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-5 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             <Image
@@ -504,12 +542,12 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "w-full my-10 flex flex-col justify-center items-center px-[6%] xl:order-7"
+                                "w-full my-10 flex flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-7"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl"
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl"
                                 }
                             >
                                 ENCONTRO 03 (PARTE 2)
@@ -517,14 +555,14 @@ export default function Home() {
                             {/*todo falar com o gago sobre a foto que falta, capa do livro*/}
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 O QUARTO REICH NAS AMÉRICAS
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 03 horas com intervalos das 20H
@@ -578,7 +616,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-8 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-8 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             {/*todo falar com o gago sobre a imagem dessa parte, já que não esta no mesmo formato das demais e utiliza um fundo vermelho*/}
@@ -592,26 +630,26 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "w-full my-10 flex flex-col justify-center items-center px-[6%] xl:order-10"
+                                "w-full my-10 flex flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-10"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl"
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl"
                                 }
                             >
                                 ENCONTRO 04
                             </h3>
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 A HISTÓRIA SE REPETE
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 05 horas com intervalos das 14
@@ -653,7 +691,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-9 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-9 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             <Image
@@ -666,26 +704,26 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "w-full my-10 flex flex-col justify-center items-center px-[6%] xl:order-11"
+                                "w-full my-10 flex flex-col justify-center items-start px-[6%] xl:px-[15%] xl:order-11"
                             }
                         >
                             <h3
                                 className={
-                                    "text-2xl text-center font-montserrat text-brand-red text-shadow md:text-4xl"
+                                    "text-2xl text-left font-montserrat text-brand-red text-shadow md:text-4xl"
                                 }
                             >
                                 ENCONTRO 05
                             </h3>
                             <h4
                                 className={
-                                    "text-2xl text-center font-montserrat md:text-3xl"
+                                    "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
                                 PERGUNTAS E RESPOSTAS
                             </h4>
                             <p
                                 className={
-                                    "text-center mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
+                                    "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
                                 Carga horária de 03 horas com intervalos das 20H
@@ -727,7 +765,7 @@ export default function Home() {
                         </div>
                         <div
                             className={
-                                "xl:order-12 relative min-h-[350px] md:min-h-[500px]"
+                                "xl:order-12 relative min-h-[350px] md:min-h-[600px]"
                             }
                         >
                             <Image
@@ -866,16 +904,16 @@ export default function Home() {
                     </div>
                 </section>
                 <section className={"bg-gray-300 pt-10 pb-4"}>
-                    <div className="frame">
+                    <div className="max-w-[1800px] xl:mx-auto">
                         <h2
                             className={
-                                "font-montserrat text-2xl text-center mb-10 md:text-4xl xl:text-6xl"
+                                "font-montserrat frame text-2xl text-center mb-10 md:text-4xl xl:text-6xl"
                             }
                         >
                             O QUE OS ALUNOS FALAM DOS CURSOS DO ALCIONE
                             GIACOMITTI
                         </h2>
-                        <div className="grid grid-cols-1 w-full lg:grid-cols-2 xl:grid-cols-3">
+                        <div className="grid grid-cols-1 w-full lg:grid-cols-2 xl:grid-cols-5">
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/g4HOWUqgRhQ"

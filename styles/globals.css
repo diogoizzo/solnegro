@@ -7,6 +7,9 @@
     .frame{
         @apply max-w-screen-2xl px-[6%] mx-auto}
 }
+p{
+    line-height: 36px !important;
+}
 
 .swiper-button-next, .swiper-button-prev{
     color: white !important;
@@ -44,5 +47,23 @@
     text-decoration-color:#ED1C24;
     text-decoration-thickness: 3px;
 }
+p + p {
+    margin-top: 32px !important;
+}
+li{
+    line-height: 30px !important;
+}
+details > summary {
+    list-style: none !important;
+}
+
+details > summary::marker, /* Latest Chrome, Edge, Firefox */
+details > summary::-webkit-details-marker /* Safari */ {
+    display: none !important;
+}
+.leading-header{
+    line-height: 23px !important;
+}
+
 
 

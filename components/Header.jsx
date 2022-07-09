@@ -23,7 +23,7 @@ export default function Header() {
                         </h1>
                         <p
                             className={
-                                "text-white font-robotoCond text-right md:text-3xl md:mt-3 xl:text-5xl"
+                                "text-white font-robotoCond text-right md:text-3xl md:mt-3 xl:text-5xl leading-header"
                             }
                         >
                             Sociedades Ocultistas na {""}
