@@ -32,7 +32,7 @@ export default function Home() {
                                 src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
-                                className={"xl:hidden"}
+                                className={"md:hidden"}
                             ></iframe>
                             <iframe
                                 width="560"
@@ -40,7 +40,7 @@ export default function Home() {
                                 src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
-                                className={"hidden xl:block"}
+                                className={"hidden md:block mx-auto"}
                             ></iframe>
                         </span>
 
@@ -318,7 +318,7 @@ export default function Home() {
                                         "font-montserrat text-2xl text-center  text-brand-red text-shadow-red-claro mb-6 md:text-4xl xl:text-6xl xl:leading-[80px] xl:text-left"
                                     }
                                 >
-                                    COMO O SOL NEGRO
+                                    COMO O SOL NEGRO{" "}
                                     <br className={"hidden xl:inline-block"} />É
                                     ESTRUTURADO
                                 </h2>
@@ -1008,7 +1008,7 @@ export default function Home() {
                 <p className={"frame text-white text-center"}>
                     Todos os direitos reservados a Alcione Giacomitti
                 </p>
-                <p className={"frame text-white text-center"}>
+                <p className={"frame text-white text-center p-footer"}>
                     Desenvolvido por Goma Digital
                 </p>
             </footer>

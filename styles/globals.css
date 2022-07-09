@@ -64,6 +64,9 @@ details > summary::-webkit-details-marker /* Safari */ {
 .leading-header{
     line-height: 23px !important;
 }
+.p-footer{
+    margin-top: 0 !important;
+}
 
 
 
