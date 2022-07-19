@@ -10,6 +10,9 @@
 p{
     line-height: 36px !important;
 }
+.p-dif{
+    line-height: 30px !important;
+}
 
 .swiper-button-next, .swiper-button-prev{
     color: white !important;
@@ -66,6 +69,9 @@ details > summary::-webkit-details-marker /* Safari */ {
 }
 .p-footer{
     margin-top: 0 !important;
+}
+ol > li::marker {
+    font-weight: bold !important;
 }
 
 

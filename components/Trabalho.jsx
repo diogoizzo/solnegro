@@ -4,7 +4,7 @@ export default function Trabalho() {
             <div className={"w-full  flex justify-center py-6 frame"}>
                 <h3
                     className={
-                        "font-montserrat text-white text-xl tracking-wide text-center md:text-3xl"
+                        "font-montserrat text-white text-xl tracking-wide text-center md:text-2xl"
                     }
                 >
                     Esse é um trabalho de pesquisa histórica. Apologia ao

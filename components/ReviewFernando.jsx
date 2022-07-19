@@ -1,4 +1,4 @@
-export default function Reviews({ src, nome, funcao }) {
+export default function ReviewFernando({ src, nome }) {
     return (
         <div className={"mx-auto flex flex-col items-center mb-6"}>
             <iframe
@@ -15,12 +15,9 @@ export default function Reviews({ src, nome, funcao }) {
             >
                 {nome}
             </h3>
-            <p
-                className={
-                    "font-roboto px-2 text-lg text-center md:text-2xl p-dif"
-                }
-            >
-                {funcao}
+            <p className={"font-roboto text-lg text-center md:text-2xl p-dif"}>
+                Geólogo, autor e <br className={"hidden lg:block"} />
+                prof. de Tai Chi
             </p>
         </div>
     );

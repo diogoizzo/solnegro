@@ -7,6 +7,7 @@ import Reviews from "../components/Reviews";
 import Preco from "../components/Preco";
 import Perguntas from "../components/Perguntas";
 import customLoader from "../components/customLoader";
+import ReviewFernando from "../components/ReviewFernando";
 
 export default function Home() {
     return (
@@ -18,11 +19,20 @@ export default function Home() {
                 >
                     <h2
                         className={
-                            "mb-6 font-montserrat text-2xl text-brand-red tracking-wide text-center text-shadow md:text-4xl xl:text-6xl xl:leading-[80px]"
+                            "font-montserrat text-2xl text-brand-red tracking-wide text-center text-shadow md:text-4xl xl:text-5xl xl:leading-[70px]"
                         }
                     >
-                        O CURSO QUE IRÁ DEVASTAR SUAS CRENÇAS
+                        O CURSO QUE IRÁ <br className={"hidden md:block"} />{" "}
+                        DEVASTAR SUAS CRENÇAS
                     </h2>
+                    <p
+                        className={
+                            "font-roboto text-center font-semibold text-xl xl:text-4xl mt-2 mb-10"
+                        }
+                    >
+                        Serão 5 encontros ao vivo, nos dias 03, 10, 17, 24 e 29
+                        de Setembro
+                    </p>
                     {/*todo falar com o gago sobre o ajuste de dropshadow para o mobile - ficou muito forte*/}
                     {/*todo falar com o gago sobre a alteração de título, pois ficou igual a faixa da imagem*/}
                     <div className={"w-full flex flex-col xl:flex-row"}>
@@ -209,12 +219,12 @@ export default function Home() {
                     <div className="frame">
                         <h2
                             className={
-                                "font-montserrat text-2xl text-center text-shadow-red mb-6 md:text-4xl xl:text-6xl"
+                                "font-montserrat text-2xl text-center text-shadow-red mb-6 md:text-4xl xl:text-5xl"
                             }
                         >
                             DE ONDE VEM ESSAS TEORIAS
                         </h2>
-                        <div className="grid  grid-cols-1 pb-6 grid-rows-3 md:grid-rows-6 md:pb-12 xl:pb-5 xl:grid-cols-3 xl:grid-rows-2 xl:gap-10 ">
+                        <div className="grid  grid-cols-1 pb-6 grid-rows-2 md:grid-rows-3 md:grid-rows-6 md:pb-12 xl:pb-5 xl:grid-cols-3 xl:grid-rows-2 xl:gap-10 ">
                             <div className={"xl:col-span-2 relative"}>
                                 <p
                                     className={
@@ -269,7 +279,7 @@ export default function Home() {
                             <Slider
                                 orientation={"horizontal "}
                                 className={
-                                    "mt-12 md:row-span-2 xl:h-full  xl:col-span-2 max-h-[400px] md:h-full"
+                                    "hidden mt-12 md:block md:row-span-2 xl:h-full  xl:col-span-2 max-h-[400px] md:h-full"
                                 }
                                 slideId={1}
                                 slides={[
@@ -293,7 +303,7 @@ export default function Home() {
                 <section>
                     <div
                         className={
-                            "bg-black w-full py-10 -mt-48 md:-mt-52 xl:mt-0"
+                            "bg-black w-full py-10 sm:-mt-48 md:-mt-52 xl:mt-0"
                         }
                     >
                         <div
@@ -322,7 +332,7 @@ export default function Home() {
                             >
                                 <h2
                                     className={
-                                        "font-montserrat text-2xl text-center  text-brand-red text-shadow-red-claro mb-6 md:text-4xl xl:text-6xl xl:leading-[80px] xl:text-left"
+                                        "font-montserrat text-2xl text-center  text-brand-red text-shadow-red-claro mb-6 md:text-4xl xl:text-5xl xl:leading-[70px] xl:text-left"
                                     }
                                 >
                                     COMO O SOL NEGRO{" "}
@@ -334,9 +344,10 @@ export default function Home() {
                                         "text-white font-roboto text-center xl:text-left text-lg md:text-2xl"
                                     }
                                 >
-                                    Serão 4 encontros ao vivo com mais de 20
-                                    horas de conteúdo com base em pesquisas
-                                    históricas
+                                    Serão 5 encontros ao vivo com mais de 20
+                                    horas de{" "}
+                                    <br className={"hidden md:block"} />{" "}
+                                    conteúdo com base em pesquisas históricas
                                 </p>
                             </div>
                         </div>
@@ -370,8 +381,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos das 14
-                                às 19h
+                                Carga horária de 05 horas com intervalos 03 de
+                                Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -440,8 +451,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos das 14
-                                às 19h
+                                Carga horária de 05 horas com intervalos 10 de
+                                Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -512,8 +523,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 04 horas com intervalos das 14
-                                às 18h
+                                Carga horária de 04 horas com intervalos 17 de
+                                Setembro das 14h às 18h
                             </p>
                             <ol
                                 className={
@@ -575,12 +586,12 @@ export default function Home() {
                                     "text-left font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas com intervalos das 20H
-                                às 23h
+                                Carga horária de 03 horas com intervalos 24 de
+                                Setembro das 20h às 23h
                             </p>
                             <p
                                 className={
-                                    "font-roboto text-justify mb-2 md:text-xl"
+                                    "font-roboto text-justify mb-2 md:text-xl p-dif"
                                 }
                             >
                                 Entrevista especial de duas horas com o
@@ -632,7 +643,7 @@ export default function Home() {
                             {/*todo falar com o gago sobre a imagem dessa parte, já que não esta no mesmo formato das demais e utiliza um fundo vermelho*/}
                             <Image
                                 loader={customLoader}
-                                src={"/images/mulheres.png"}
+                                src={"/images/matou.jpeg"}
                                 alt={"imagem de duas mulheres misteriosas"}
                                 layout={"fill"}
                                 objectFit={"cover"}
@@ -663,8 +674,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos das 14
-                                às 19h
+                                Carga horária de 05 horas com intervalos 24 de
+                                Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -738,8 +749,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas com intervalos das 20H
-                                às 23h
+                                Carga horária de 03 horas com intervalos 29 de
+                                Setembro das 20h às 23h
                             </p>
                             <ol
                                 className={
@@ -820,7 +831,7 @@ export default function Home() {
                     <div className="frame py-10 xl:py-14 relative">
                         <h2
                             className={
-                                "font-montserrat text-2xl text-center mb-6 md:text-4xl xl:text-6xl xl:mb-10"
+                                "font-montserrat text-2xl text-center mb-6 md:text-4xl xl:text-5xl xl:mb-10"
                             }
                         >
                             SOBRE ALCIONE GIACOMITTI
@@ -918,10 +929,10 @@ export default function Home() {
                     </div>
                 </section>
                 <section className={"bg-gray-300 pt-10 pb-4"}>
-                    <div className="max-w-[1800px] xl:mx-auto">
+                    <div className="max-w-[1800px] xl:mx-auto p-low">
                         <h2
                             className={
-                                "font-montserrat frame text-2xl text-center mb-10 md:text-4xl xl:text-6xl"
+                                "font-montserrat frame text-2xl text-center mb-10 md:text-4xl xl:text-5xl "
                             }
                         >
                             O QUE OS ALUNOS FALAM DOS CURSOS DO ALCIONE
@@ -961,16 +972,20 @@ export default function Home() {
                                     "https://www.youtube-nocookie.com/embed/wxHvvTs8WLQ"
                                 }
                                 nome={"Fernando Fasoli"}
-                                funcao={"Geólogo, autor e prof. de Tai Chi"}
+                                funcao={`Geólogo, autor e prof. de Tai Chi`}
                             />
+                            {/*<ReviewFernando
+                                src={
+                                    "https://www.youtube-nocookie.com/embed/wxHvvTs8WLQ"
+                                }
+                                nome={"Fernando Fasoli"}
+                            />*/}
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/zrQE4zSVWI0"
                                 }
                                 nome={"Jeanne B S Souza"}
-                                funcao={
-                                    "Especialista em Neurocirurgia e acadêmica em Biomedicina"
-                                }
+                                funcao={"Especialista em Neurocirurgia"}
                             />
                             <Reviews
                                 src={
@@ -991,7 +1006,7 @@ export default function Home() {
                                     "https://www.youtube-nocookie.com/embed/BGAY1fi-9QQ"
                                 }
                                 nome={"Patricia Trix"}
-                                funcao={"Pesquisadora temas holísticos"}
+                                funcao={"Pesquisadora de temas holísticos"}
                             />
                             <Reviews
                                 src={
@@ -1008,7 +1023,7 @@ export default function Home() {
                     <div className="frame py-10">
                         <h2
                             className={
-                                "text-2xl text-center text-brand-red font-montserrat tracking-wide mb-6 md:text-4xl xl:text-6xl xl:mb-10"
+                                "text-2xl text-center text-brand-red font-montserrat tracking-wide mb-6 md:text-4xl xl:text-5xl xl:mb-10"
                             }
                         >
                             PERGUNTAS FREQUENTES
@@ -1018,11 +1033,23 @@ export default function Home() {
                 </section>
                 <Trabalho />
             </main>
-            <footer className={"bg-brand-gray py-6 font-roboto md:text-xl"}>
-                <p className={"frame text-white text-center"}>
+            <footer className={"bg-brand-gray py-6 font-roboto md:text-xl "}>
+                <p
+                    className={
+                        "frame relative flex justify-center items-center text-white text-center p-dif"
+                    }
+                >
+                    <span className={"h-full w-6  fill-white mr-2"}>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                        >
+                            <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 464c-114.7 0-208-93.31-208-208S141.3 48 256 48s208 93.31 208 208S370.7 464 256 464zM255.1 176C255.1 176 255.1 176 255.1 176c21.06 0 40.92 8.312 55.83 23.38c9.375 9.344 24.53 9.5 33.97 .1562c9.406-9.344 9.469-24.53 .1562-33.97c-24-24.22-55.95-37.56-89.95-37.56c0 0 .0313 0 0 0c-33.97 0-65.95 13.34-89.95 37.56c-49.44 49.88-49.44 131 0 180.9c24 24.22 55.98 37.56 89.95 37.56c.0313 0 0 0 0 0c34 0 65.95-13.34 89.95-37.56c9.312-9.438 9.25-24.62-.1562-33.97c-9.438-9.312-24.59-9.219-33.97 .1562c-14.91 15.06-34.77 23.38-55.83 23.38c0 0 .0313 0 0 0c-21.09 0-40.95-8.312-55.89-23.38c-30.94-31.22-30.94-82.03 0-113.3C214.2 184.3 234 176 255.1 176z" />
+                        </svg>
+                    </span>{" "}
                     Todos os direitos reservados a Alcione Giacomitti
                 </p>
-                <p className={"frame text-white text-center p-footer"}>
+                <p className={"frame text-white text-center p-footer p-dif"}>
                     Desenvolvido por Goma Digital
                 </p>
             </footer>
