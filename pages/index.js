@@ -381,8 +381,9 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos 03 de
-                                Setembro das 14h às 19h
+                                Carga horária de 05 horas com intervalo
+                                <br />
+                                03 de Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -451,8 +452,9 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos 10 de
-                                Setembro das 14h às 19h
+                                Carga horária de 05 horas com intervalo
+                                <br />
+                                10 de Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -523,8 +525,9 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 04 horas com intervalos 17 de
-                                Setembro das 14h às 18h
+                                Carga horária de 04 horas com intervalo
+                                <br />
+                                17 de Setembro das 14h às 18h
                             </p>
                             <ol
                                 className={
@@ -586,8 +589,9 @@ export default function Home() {
                                     "text-left font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas com intervalos 24 de
-                                Setembro das 20h às 23h
+                                Carga horária de 03 horas com intervalo
+                                <br />
+                                24 de Setembro das 20h às 23h
                             </p>
                             <p
                                 className={
@@ -674,8 +678,8 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 05 horas com intervalos 24 de
-                                Setembro das 14h às 19h
+                                Carga horária de 05 horas com intervalo <br />
+                                24 de Setembro das 14h às 19h
                             </p>
                             <ol
                                 className={
@@ -749,8 +753,9 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas com intervalos 29 de
-                                Setembro das 20h às 23h
+                                Carga horária de 03 horas com intervalo
+                                <br />
+                                29 de Setembro das 20h às 23h
                             </p>
                             <ol
                                 className={
