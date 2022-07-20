@@ -7,7 +7,6 @@ import Reviews from "../components/Reviews";
 import Preco from "../components/Preco";
 import Perguntas from "../components/Perguntas";
 import customLoader from "../components/customLoader";
-import ReviewFernando from "../components/ReviewFernando";
 
 export default function Home() {
     return (
@@ -30,8 +29,7 @@ export default function Home() {
                             "font-roboto text-center font-semibold text-xl xl:text-4xl mt-2 mb-10"
                         }
                     >
-                        Serão 5 encontros ao vivo, nos dias 03, 10, 17, 24 e 29
-                        de Setembro
+                        Serão 5 encontros online e ao vivo em setembro.
                     </p>
                     {/*todo falar com o gago sobre o ajuste de dropshadow para o mobile - ficou muito forte*/}
                     {/*todo falar com o gago sobre a alteração de título, pois ficou igual a faixa da imagem*/}
@@ -591,7 +589,7 @@ export default function Home() {
                             >
                                 Carga horária de 03 horas com intervalo
                                 <br />
-                                24 de Setembro das 20h às 23h
+                                17 de Setembro das 20h às 23h
                             </p>
                             <p
                                 className={
@@ -746,48 +744,29 @@ export default function Home() {
                                     "text-2xl text-left font-montserrat md:text-3xl"
                                 }
                             >
-                                PERGUNTAS E RESPOSTAS
+                                PARA ESCLARECER DÚVIDAS
                             </h4>
                             <p
                                 className={
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas com intervalo
+                                Carga horária de 03 horas
                                 <br />
-                                29 de Setembro das 20h às 23h
+                                29 de Setembro das 21h às 00h
                             </p>
                             <ol
                                 className={
                                     "list-[upper-roman] list-inside font-roboto md:text-xl"
                                 }
                             >
-                                <li>Os discos voadores alemães.</li>
                                 <li>
-                                    A expedição do Almirante Byrd para a
-                                    Antártida.
-                                </li>
-                                <li>As sociedades oculistas na atualidade.</li>
-                                <li>O legado sombrio da ideologia New Age.</li>
-                                <li>
-                                    A ordem de Lúcifer e seus adeptos
-                                    inconscientes.
-                                </li>
-                                <li>
-                                    Extraterrestres, mensagens canalizadas,
-                                    crianças índigos.
-                                </li>
-                                <li>
-                                    O Sol Negro nos dias atuais e na guerra da
-                                    Ucrânia.
-                                </li>
-                                <li>
-                                    Os cenários ideológicos que manipulam
-                                    milhões.
-                                </li>
-                                <li>
-                                    A difícil busca pela verdade em meio ao
-                                    engano.
+                                    Após o término do Curso, nos reuniremos numa
+                                    quinta-feira, com o objetivo de esclarecer
+                                    dúvidas sobre os temas abordados. Ao longo
+                                    do curso, você pode ir anotando todas as
+                                    suas dúvidas, e trazê-las para
+                                    esclarecimento nesta aula especial.
                                 </li>
                             </ol>
                         </div>
@@ -816,15 +795,15 @@ export default function Home() {
                                         "font-montserrat text-center text-2xl text-white mb-3 md:text-4xl"
                                     }
                                 >
-                                    PARE DE SER ENGANADO
+                                    O CURSO QUE IRÁ DEVASTAR SUAS CRENÇAS
                                 </h2>
                                 <p
                                     className={
                                         "text-white text-center text-lg font-roboto md:text-2xl"
                                     }
                                 >
-                                    Entenda o obscurantimos presente na
-                                    sociedade Alemã da segunda guerra.
+                                    Entenda o obscurantismo presente na
+                                    sociedade alemã da Segunda Guerra.
                                 </p>
                             </div>
                         </div>
@@ -948,77 +927,61 @@ export default function Home() {
                                 src={
                                     "https://www.youtube-nocookie.com/embed/g4HOWUqgRhQ"
                                 }
-                                nome={"Silvana Pringler"}
-                                funcao={"Enfermeira"}
+                                id={"g4HOWUqgRhQ"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/7BLrOVy1Hxk"
                                 }
-                                nome={"Ingrid Marise"}
-                                funcao={"Professora de História"}
+                                id={"7BLrOVy1Hxk"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/G2bDImmgK6k"
                                 }
-                                nome={"Hilário Nunes"}
-                                funcao={"Professor de História"}
+                                id={"G2bDImmgK6k"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/nrhBSWPdcRc"
                                 }
-                                nome={"Amimcha"}
-                                funcao={"Acadêmica de Direito"}
+                                id={"nrhBSWPdcRc"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/wxHvvTs8WLQ"
                                 }
-                                nome={"Fernando Fasoli"}
-                                funcao={`Geólogo, autor e prof. de Tai Chi`}
+                                id={"wxHvvTs8WLQ"}
                             />
-                            {/*<ReviewFernando
-                                src={
-                                    "https://www.youtube-nocookie.com/embed/wxHvvTs8WLQ"
-                                }
-                                nome={"Fernando Fasoli"}
-                            />*/}
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/zrQE4zSVWI0"
                                 }
-                                nome={"Jeanne B S Souza"}
-                                funcao={"Especialista em Neurocirurgia"}
+                                id={"zrQE4zSVWI0"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/ierNKhYwzSM"
                                 }
-                                nome={"Papito"}
-                                funcao={"Advogado"}
+                                id={"ierNKhYwzSM"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/B9_NSsRP1TI"
                                 }
-                                nome={"Gutenberge Oliveira"}
-                                funcao={"Técnico em prótese dentária"}
+                                id={"B9_NSsRP1TI"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/BGAY1fi-9QQ"
                                 }
-                                nome={"Patricia Trix"}
-                                funcao={"Pesquisadora de temas holísticos"}
+                                id={"BGAY1fi-9QQ"}
                             />
                             <Reviews
                                 src={
                                     "https://www.youtube-nocookie.com/embed/7be242wq2M4"
                                 }
-                                nome={"Agda Eva"}
-                                funcao={"Costureira"}
+                                id={"7be242wq2M4"}
                             />
                         </div>
                     </div>
