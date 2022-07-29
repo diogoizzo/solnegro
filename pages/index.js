@@ -1007,7 +1007,7 @@ export default function Home() {
             <footer className={"bg-brand-gray py-6 font-roboto md:text-xl "}>
                 <p
                     className={
-                        "frame relative flex justify-center items-center text-white text-center p-dif"
+                        "frame relative flex flex-col md:flex-row justify-center items-center text-white text-center p-dif"
                     }
                 >
                     <span className={"h-full w-6  fill-white mr-2"}>
