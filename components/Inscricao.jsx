@@ -18,7 +18,7 @@ export default function Inscricao() {
                     "flex flex-col mt-6 justify-center items-center md:space-y-3 xl:flex-row xl:w-1/2 xl:mx-auto"
                 }
             >
-                <div className={"flex h-fit"}>
+                <div className={"flex items-center h-fit"}>
                     <span className={"min-w-fit mr-2 md:hidden"}>
                         <Image
                             loader={customLoader}
@@ -60,26 +60,36 @@ export default function Inscricao() {
                 <div className={"flex flex-col"}>
                     <p
                         className={
-                            "text-white font-roboto text-center text-sm inline-flex items-center justify-center md:text-2xl"
+                            "text-white font-roboto text-center md:mb-2 text-sm flex flex-row items-center justify-center md:text-2xl"
                         }
                     >
-                        <span className={"mr-2 md:hidden"}>
+                        <span
+                            className={
+                                "mr-2 md:hidden inline-flex justify-center items-center"
+                            }
+                        >
                             <Image
                                 loader={customLoader}
                                 src={"/icons/cadeado.svg"}
                                 alt={"ícone de arquivos do curso"}
                                 width={20}
                                 height={20}
+                                objectPosition={"center"}
                                 layout={"intrinsic"}
                             />
                         </span>
-                        <span className={"hidden md:block mr-2"}>
+                        <span
+                            className={
+                                "hidden md:inline-flex mr-2 justify-center items-center"
+                            }
+                        >
                             <Image
                                 loader={customLoader}
                                 src={"/icons/cadeado.svg"}
                                 alt={"ícone de arquivos do curso"}
                                 width={35}
                                 height={35}
+                                objectPosition={"center"}
                                 layout={"intrinsic"}
                             />
                         </span>
