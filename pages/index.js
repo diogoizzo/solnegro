@@ -29,7 +29,8 @@ export default function Home() {
                             "font-roboto text-center font-semibold text-xl xl:text-4xl mt-2 mb-10"
                         }
                     >
-                        Serão 5 encontros online e ao vivo em setembro.
+                        Serão 5 encontros ao vivo, nos dias 03, 10, 17, 24 e 29
+                        de Setembro
                     </p>
                     {/*todo falar com o gago sobre o ajuste de dropshadow para o mobile - ficou muito forte*/}
                     {/*todo falar com o gago sobre a alteração de título, pois ficou igual a faixa da imagem*/}
@@ -38,7 +39,7 @@ export default function Home() {
                             <iframe
                                 width="330"
                                 height="200"
-                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&enablejsapi=1&origin=https://solnegro.vercel.app"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&loop=1&playlist=Rjkc8lYa8Y8&enablejsapi=1&origin=https://solnegro.vercel.app"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
                                 className={"md:hidden"}
@@ -46,9 +47,9 @@ export default function Home() {
                             <iframe
                                 width="560"
                                 height="390"
-                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&enablejsapi=1&origin=https://solnegro.vercel.app"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen="allowFullScreen"
+                                src="https://www.youtube-nocookie.com/embed/Rjkc8lYa8Y8?autoplay=1&mute=1&loop=1&playlist=Rjkc8lYa8Y8&enablejsapi=1&origin=https://solnegro.vercel.app"
                                 className={"hidden md:block mx-auto"}
                             ></iframe>
                         </span>
@@ -60,10 +61,10 @@ export default function Home() {
                         >
                             <p>
                                 Conheça os poderes ocultos que atuaram na
-                                Alemanha de Hitler e saiba como essas ideias
-                                seguem vivas nos dias atuais, através de grupos
+                                Alemanha de Hitler, e saiba como estas ideias
+                                seguem vivas nos dias atuais através de grupos
                                 místicos e esotéricos. Crianças cristais,
-                                mensagens canalizadas, contrato extraterrestre,
+                                mensagens canalizadas, contato extraterrestre,
                                 energia vril, são apenas algumas dessas ideias.
                                 A presença do símbolo Sol Negro na guerra da
                                 Ucrânia, mostrou aquilo que o autor vem dizendo
@@ -220,7 +221,7 @@ export default function Home() {
                                 "font-montserrat text-2xl text-center text-shadow-red mb-6 md:text-4xl xl:text-5xl"
                             }
                         >
-                            DE ONDE VEM ESSAS TEORIAS
+                            DE ONDE VÊM ESSAS TEORIAS
                         </h2>
                         <div className="grid  grid-cols-1 pb-6 grid-rows-2 md:grid-rows-3 md:grid-rows-6 md:pb-12 xl:pb-5 xl:grid-cols-3 xl:grid-rows-2 xl:gap-10 ">
                             <div className={"xl:col-span-2 relative"}>
@@ -229,28 +230,30 @@ export default function Home() {
                                         "text-justify font-roboto md:text-xl"
                                     }
                                 >
-                                    Conheça os poderes ocultos que atuaram na
-                                    Alemanha de Hitler e saiba como essas ideias
-                                    seguem vivas nos dias atuais, através de
-                                    grupos místicos e esotéricos. Crianças
-                                    cristais, mensagens canalizadas, contrato
-                                    extraterrestre, energia vril, são apenas
-                                    algumas dessas ideias.
+                                    Durante muito tempo se ocultou a verdade de
+                                    que o nacional socialismo tinha conexões com
+                                    ideologias esotéricas e sociedades
+                                    ocultistas sombrias. As teorias que
+                                    sustentam este curso, vem de uma análise
+                                    profunda das ordens e ideologias que
+                                    surgiram ao longo do século XIX. A trágica
+                                    situação da Alemanha após a Primeira Guerra
+                                    Mundial e como seu povo esperava o
+                                    surgimento de um “salvador”, uma espécie de
+                                    messias ungido que resgataria o seu passado
+                                    glorioso.
                                 </p>
                                 <p
                                     className={
                                         "text-justify font-roboto md:text-xl"
                                     }
                                 >
-                                    A presença do símbolo Sol Negro na guerra da
-                                    Ucrânia, mostrou aquilo que o autor vem
-                                    dizendo há anos. Estamos revivendo o passado
-                                    e aqueles que escreveram a história
-                                    ocultaram parte da verdade. Após este curso,
-                                    você jamais voltará a ser enganado por esses
-                                    grupos que com suas ideologias controlam e
-                                    manipulam a maior parte das pessoas no
-                                    mundo.
+                                    Pesquisadores se debruçaram durante anos
+                                    para resgatar esses fatos. Você conhecerá as
+                                    principais fontes históricas, os principais
+                                    livros, pesquisas e documentos
+                                    desclassificados. Saberá também os motivos e
+                                    interesses em se ocultar tudo isso.
                                 </p>
                             </div>
 
@@ -408,7 +411,7 @@ export default function Home() {
                                     Negro.
                                 </li>
                                 <li>
-                                    Demais influencias da ideologia nazista.
+                                    Demais influências da ideologia nazista.
                                 </li>
                             </ol>
                         </div>
@@ -476,7 +479,7 @@ export default function Home() {
                                     cristais”.
                                 </li>
                                 <li>
-                                    A lança do destino, o santo graal e outros
+                                    A lança do destino, o Santo Graal e outros
                                     objetos de poder.
                                 </li>
                                 <li>
@@ -535,7 +538,7 @@ export default function Home() {
                                 <li>O Tribunal de Nuremberg.</li>
                                 <li>O Quarto Reich.</li>
                                 <li>A Rota dos Ratos.</li>
-                                <li>A fuga para América do Sul.</li>
+                                <li>A fuga para a América do Sul.</li>
                                 <li>Igreja Católica auxilia fugitivos.</li>
                                 <li>
                                     Nações simpatizantes do Nacional Socialismo.
@@ -598,7 +601,7 @@ export default function Home() {
                             >
                                 Entrevista especial de duas horas com o
                                 jornalista Marcelo Netto, um dos autores da obra
-                                “O Homem que Enterrou Hitler”. Serão abordados:
+                                O Homem que enterrou Hitler. Serão abordados:
                             </p>
                             {/*todo falar com o gago sobre a diferença de padrão, já que todas as listas são em romano e essa é com asterístico*/}
                             <ol
@@ -611,7 +614,7 @@ export default function Home() {
                                     enterro de Hitler no Paraguai.
                                 </li>
                                 <li>
-                                    A manipulação no cenário da morte em Berlin.
+                                    A manipulação no cenário da morte em Berlim.
                                 </li>
                                 <li>
                                     A pesquisa da análise dentária de Hitler
@@ -623,13 +626,12 @@ export default function Home() {
                                 </li>
                                 <li>
                                     Como a Alemanha queria instaurar no interior
-                                    do estado do Paraná uma coloca nazista
+                                    do estado do Paraná uma colônia nazista
                                     modelo.
                                 </li>
                                 <li>
-                                    O segurança pessoal de Hitler que resistiu
-                                    em São Paulo e está prestes a ser
-                                    denunciado.
+                                    O segurança pessoal de Hitler que residiu em
+                                    São Paulo e está prestes a ser denunciado.
                                 </li>
                                 <li>
                                     As forças poderosas que atuam para ocultar a
@@ -689,7 +691,7 @@ export default function Home() {
                                     A expedição do Almirante Byrd para a
                                     Antártida.
                                 </li>
-                                <li>As sociedades oculistas na atualidade.</li>
+                                <li>As sociedades ocultistas na atualidade.</li>
                                 <li>O legado sombrio da ideologia New Age.</li>
                                 <li>
                                     A ordem de Lúcifer e seus adeptos
@@ -751,7 +753,7 @@ export default function Home() {
                                     "text-left mb-6 font-roboto mt-2 font-semibold text-lg md:text-2xl"
                                 }
                             >
-                                Carga horária de 03 horas
+                                Carga horária de 3 horas
                                 <br />
                                 29 de Setembro das 21h às 00h
                             </p>
@@ -764,9 +766,9 @@ export default function Home() {
                                     Após o término do Curso, nos reuniremos numa
                                     quinta-feira, com o objetivo de esclarecer
                                     dúvidas sobre os temas abordados. Ao longo
-                                    do curso, você pode ir anotando todas as
-                                    suas dúvidas, e trazê-las para
-                                    esclarecimento nesta aula especial.
+                                    do curso, você poderá anotar todas as suas
+                                    dúvidas e trazê-las para esclarecimento
+                                    nesta aula especial.
                                 </li>
                             </ol>
                         </div>
@@ -803,7 +805,7 @@ export default function Home() {
                                     }
                                 >
                                     Entenda o obscurantismo presente na
-                                    sociedade alemã da Segunda Guerra.
+                                    sociedade Alemã da Segunda Guerra.
                                 </p>
                             </div>
                         </div>
@@ -855,18 +857,18 @@ export default function Home() {
                                 entre Ciência e Espiritualidade e pesquisas
                                 pelos mais importantes impérios arqueológicos da
                                 América do Sul. Também organizou alguns dos mais
-                                importantes eventos ocorridos no Brasil nestas
+                                valiosos eventos ocorridos no Brasil nestas
                                 áreas.
                             </p>
                             <p>
-                                Dentre os eventos, destacam-se o “Fórum Mundial
-                                Espírito e Ciência”, que contou com a presença
-                                de mais de quarenta conferencistas de diferentes
-                                países, o Fórum Internacional “Vida Após a
-                                Morte” e a “Conferência Global 21 minutos”, que
-                                reuniu sessenta conferencistas de dez países,
-                                entre as maiores lideranças mundiais destes
-                                temas.
+                                Dentre estes eventos, destacam-se o Fórum
+                                Mundial Espírito e Ciência, que contou com a
+                                presença de mais de quarenta conferencistas de
+                                diferentes países, o Fórum Internacional Vida
+                                Após a Morte e a Conferência Global 21 minutos,
+                                que reuniu sessenta conferencistas de dez
+                                países, entre as maiores lideranças mundiais
+                                destes temas.
                             </p>
                             <p>
                                 Há vinte anos o autor organiza viagens de
@@ -887,26 +889,27 @@ export default function Home() {
                                 suas viagens de estudos pela América do Sul,
                                 como o físico quântico americano Amit Goswami, o
                                 lendário autor suíço Erich von Daniken, o editor
-                                da revista ufo Ademar Gevaerd, entre muitos
+                                da revista Ufo Ademar Gevaerd, entre muitos
                                 outros.
                             </p>
                             <p>
-                                Alcione Giacomitti é autor de “Os Pilares da
-                                Sabedoria de Um Novo Mundo”, “Noites Mágicas em
-                                Machu Picchu” e “A Sabedoria dos Antigos Xamãs”.
+                                Alcione Giacomitti é autor de Os Pilares da
+                                Sabedoria de Um Novo Mundo, Noites Mágicas em
+                                Machu Picchu e A Sabedoria dos Antigos Xamãs.
                             </p>
                             <p>
                                 Mantém um Canal no YouTube que leva o seu nome,
-                                onde semanalmente aborda conhecimentos elevados
-                                da ciência, espiritualidade e antigas tradições.
+                                no qual semanalmente aborda conhecimentos
+                                elevados da ciência, espiritualidade e antigas
+                                tradições.
                             </p>
                             <p>
-                                O primeiro evento do autor, “Enigmas do Planeta
-                                Terra”, foi organizado quando ele tinha apenas
-                                16 anos e contou com a presença de grandes
+                                O primeiro evento do autor, Enigmas do Planeta
+                                Terra, foi organizado quando ele tinha apenas 16
+                                anos e contou com a presença de grandes
                                 estudiosos e pesquisadores da época. Em 2022, o
                                 autor foi homenageado pela cidade de Curitiba,
-                                recebendo o “Prêmio Cultura e Divulgação”, pela
+                                recebendo o Prêmio Cultura e Divulgação, pela
                                 dedicação e divulgação do conhecimento.
                             </p>
                         </div>

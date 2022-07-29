@@ -9,7 +9,7 @@ export default function Preco() {
                         "text-white text-center font-roboto text-lg font-semibold md:text-3xl"
                     }
                 >
-                    Aproveite nossa oferta de lançamento:
+                    Oferta de lançamento até dia 15/08:
                     <br />
                     <span className={"text-2xl inline-block mt-4 md:text-3xl"}>
                         de <span className={"preco-riscado"}>797,00</span> por

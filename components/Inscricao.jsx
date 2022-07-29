@@ -4,7 +4,7 @@ import customLoader from "./customLoader";
 export default function Inscricao() {
     return (
         <div className={"flex flex-col w-full mt-10 "}>
-            <Link href={"https://www.google.com/"} prefetch={false}>
+            <Link href={"https://sun.eduzz.com/1533821"} prefetch={false}>
                 <div
                     className={
                         "py-4 w-full bg-brand-red-dark rounded-3xl border-4 hover:border-brand-red-dark  border-brand-red inline-flex justify-center items-center text-white text-lg tracking-wide font-montserrat md:text-3xl  xl:w-1/2 xl:mx-auto xl:py-8 hover:bg-brand-red transition-colors"
