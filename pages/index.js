@@ -114,7 +114,7 @@ export default function Home() {
                                         "text-xl mt-2 text-white font-roboto text-center md:text-2xl"
                                     }
                                 >
-                                    4 Encontros
+                                    5 Encontros
                                     <br />
                                     ao vivo
                                 </p>
